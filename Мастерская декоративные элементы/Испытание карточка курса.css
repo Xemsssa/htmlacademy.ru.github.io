@@ -1,0 +1,77 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 280px;
+    min-height: 280px;
+    padding-top: 18px;
+    padding-left: 18px;
+    font-size: 14px;
+    font-family: "Arial", sans-serif;
+    line-height: 1.2;
+    background: #ecf0f1;
+    
+}
+
+/*
+Все размеры, отступы, координаты, размеры шрифтов (не заданные в body) кратны 5 или 10.
+Адрес картинки-спрайта:
+/assets/course14/social-challenge.png
+*/
+
+#container {
+    box-size: border-box;
+    width: 200px;
+    margin: 2px;
+    padding: 20px;
+    color: white;   
+    background: #1abc9c;
+    /*#16a085*/
+}
+
+#header {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    }
+    
+#text {
+    margin-top: -2px;
+    }
+    
+.social {
+    margin-top: -2px;
+    height: 30px;
+    width: 30px;
+    background-color: #16a085;
+    background-image: url(/assets/course14/social-challenge.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    /*margin-top: -5px;*/
+    margin-right: 5px;
+    /*margin: 10px 5px;*/
+    }
+    
+.social-fb {
+    /*background-color:#16a085;*/
+    background-position: 0 0;
+    }
+
+.social-tw {
+    /*background-color:#16a085;*/
+    background-position: -30px ;
+    }    
+    
+.social-go {
+    /*background-color:#16a085;*/
+    background-position: -60px;
+    }        
+
+p{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    }
