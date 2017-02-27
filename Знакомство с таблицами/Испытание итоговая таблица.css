@@ -1,0 +1,51 @@
+body {
+    width: 350px;
+    margin: 0;
+    padding: 0 10px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    }
+
+tr {
+    height: 37px;
+    text-align: center;
+    }
+
+th {
+    color: white;
+    width: 33%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    }
+    
+td {
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    }
+    
+.left {
+    text-align: left;
+    padding-left: 10px;
+    }
+    
+.right {
+    text-align: right;
+    padding-right: 10px;
+    }
+    
+.visited {
+    background: lightblue;
+    }    
+   
+th:nth-child(2n-1) {
+    background:darkcyan;
+    }
+    
+tr:nth-child(2n-1) {
+    background: lightyellow;
+    }    
