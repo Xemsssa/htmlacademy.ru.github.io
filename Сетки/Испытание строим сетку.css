@@ -1,0 +1,85 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 450px;
+    height: 335px;
+    font-family: "Arial", sans-serif;
+    font-size: 10px;
+    color: white;
+}
+
+#wrapper {
+    padding-top: 10px;
+    margin-bottom: 10px;
+    }
+    
+#menu, #header {
+    height: 35px;
+    margin-bottom: 10px;
+    }
+    
+#footer {
+    height: 35px;
+    }
+    
+.promo {
+    width: 170px;
+    margin-right: 10px;
+    float: left;
+    margin-bottom: 10px;
+    height: 60px;
+    }   
+
+.red div:nth-child(2),
+.container div:nth-child(3)
+{
+    margin-right: 0;
+    }
+    
+.container {
+    margin: 0px auto;
+    width: 350px;
+    }
+
+.back {
+    background: #34495e;
+    }
+
+.red {
+    background: #c0392b;
+    }
+    
+.blue{
+    background: #3498DB;
+    }
+ 
+.content {
+    float: left;
+    height: 110px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    } 
+     
+.left {
+    width: 70px;
+    }     
+
+.main {
+    width: 190px;
+    }
+      
+.clearfix {
+    display: table;
+    content: "";
+    clear: both;
+    }      
+/*
+    Используемые цвета:
+    #34495e – мокрый асфальт
+    #c0392b – красный
+    #3498DB – синий
+*/
